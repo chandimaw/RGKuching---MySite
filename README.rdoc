@@ -1,11 +1,55 @@
 == Rails Girls Kuching Workshop : Part 3 (Create Static Pages with Rails)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails is a web framework that makes it easy to build powerful web apps in a short amount of time.
+
+Ruby on Rails is written in the Ruby programming language.
+
+For this workshop, we will be focusing on basic *Routes, Views and Controllers*
+
+== Nitrous.IO Quick Setup
+
+[1. Download Nitrous Pro for Chrome]
+
+{Nitrous.io}[https://www.nitrous.io] is a cloud development box and text editor where you can write and run your code.
+
+Click [HERE]{https://chrome.google.com/webstore/detail/nitrous/efdcneeepllhjlbejkfnaolelbpdacai} to download the app.
+
+[2. Signing up]
+1. Launch the app from your Chrome browser.
+2. Follow the step to signup as a new user.
+3. Wait for their confirmation email.
+
+[3. Create your first box]
+
+[4. Connect to GitHub]
+
+Follow the steps [HERE]{https://community.nitrous.io/docs/connect-to-github} to connect with GitHub.
+
+[5. Check Version]
+
+1. Ruby Version - run:<tt>ruby -v</tt>
+2. Rails Version - run:<tt>rails -v</tt>
+
+== Hello Rails
+
+1. Let's get started by making a Rails app for a personal website. In the terminal, type
+   <tt>$ rails new MySite</tt>
+
+   The rails new command created a new Rails app named MySite. It generated a number of files and    folders that we will use to build the app.
+
+   Go to your file browser to see the files and folder.
+
+   The <tt>rails new <project_name></tt> is the starting point for every rails project</tt>
+
+2. Run <tt>$ bundle install</tt>
+
+   The <tt>bundle install</tt> command installed all the software packages needed by the new Rails    app. These software packages are called gems and they are listed in the file *Gemfile*.
+   
+3. Finally type <tt>rails s -b 0.0.0.0</tt>
+    The <tt>rails server</tt> command started the Rails development server so that we could previe     w the app in the browser.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
 
 == Source
 * {Codecademy : Learn to Code}[https://www.codecademy.com/]
