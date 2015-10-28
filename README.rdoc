@@ -8,24 +8,25 @@ For this workshop, we will be focusing on basic *Routes, Views and Controllers*
 
 == Nitrous.IO Quick Setup
 
-[1. Download Nitrous Pro for Chrome]
+[Download Nitrous Pro for Chrome]
 
 {Nitrous.io}[https://www.nitrous.io] is a cloud development box and text editor where you can write and run your code.
 
-Click [HERE]{https://chrome.google.com/webstore/detail/nitrous/efdcneeepllhjlbejkfnaolelbpdacai} to download the app.
+Click {HERE}[https://chrome.google.com/webstore/detail/nitrous/efdcneeepllhjlbejkfnaolelbpdacai] to download the app.
 
-[2. Signing up]
+[Signing up]
+
 1. Launch the app from your Chrome browser.
 2. Follow the step to signup as a new user.
 3. Wait for their confirmation email.
 
-[3. Create your first box]
+[Create your first box]
 
-[4. Connect to GitHub]
+[Connect to GitHub]
 
-Follow the steps [HERE]{https://community.nitrous.io/docs/connect-to-github} to connect with GitHub.
+Follow the steps {HERE}[https://community.nitrous.io/docs/connect-to-github] to connect with GitHub.
 
-[5. Check Version]
+[Check Version]
 
 1. Ruby Version - run:<tt>ruby -v</tt>
 2. Rails Version - run:<tt>rails -v</tt>
@@ -44,9 +45,10 @@ Follow the steps [HERE]{https://community.nitrous.io/docs/connect-to-github} to 
 2. Run <tt>$ bundle install</tt>
 
    The <tt>bundle install</tt> command installed all the software packages needed by the new Rails    app. These software packages are called gems and they are listed in the file *Gemfile*.
-   
+
 3. Finally type <tt>rails s -b 0.0.0.0</tt>
-    The <tt>rails server</tt> command started the Rails development server so that we could previe     w the app in the browser.
+   
+   The <tt>rails server</tt> command started the Rails development server so that we could preview    the app in the browser.
 
 
 
