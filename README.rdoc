@@ -36,22 +36,21 @@ Follow the steps {HERE}[https://community.nitrous.io/docs/connect-to-github] to 
 
 == Hello Rails
 
-* Let's get started by making a Rails app for a personal website. In the terminal, type
-   <tt>$ rails new MySite</tt>
+* Let's get started by making a Rails app for a personal website. In the terminal, type <tt>$ rails new MySite</tt>
 
-The rails new command created a new Rails app named MySite. It generated a number of files and folders that we will use        to build the app.
+  The rails new command created a new Rails app named MySite. It generated a number of files and folders that we will use       to build the app.
 
-Go to your file browser to see the files and folder.
+  Go to your file browser to see the files and folder.
 
-The <tt>rails new <project_name></tt> is the starting point for every rails project.
+  The <tt>rails new <project_name></tt> is the starting point for every rails project.
 
 * Run <tt>$ bundle install</tt>
 
-The <tt>bundle install</tt> command installed all the software packages needed by the new Rails app. These software pack      ages are called gems and they are listed in the file <b>Gemfile</b>.
+  The <tt>bundle install</tt> command installed all the software packages needed by the new Rails app. These software pack       ages are called gems and they are listed in the file <b>Gemfile</b>.
 
 * Finally type <tt>rails s -b 0.0.0.0</tt>
 
-The <tt>rails server</tt> command started the Rails development server so that we could preview the app in the browser.
+  The <tt>rails server</tt> command started the Rails development server so that we could preview the app in the browser.
 
 
 
