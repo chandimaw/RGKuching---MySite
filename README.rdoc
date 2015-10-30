@@ -51,7 +51,7 @@ Follow the steps {HERE}[https://community.nitrous.io/docs/connect-to-github] to 
 * Finally type <tt>rails s -b 0.0.0.0</tt>
 
   The <tt>rails server</tt> command starts the Rails development server so that we could preview the app in the browser. Click on <tt>Preview -> Port 3000</tt>. This development server is called WEBrick.
-  
+
 == What happens when you visit your localhost?
 1. The browser makes a request for the URL <b>http://localhost:3000</b>
 2. The request hits the Rails router in <tt>config/routes.rb</tt>. The router recognizes the URL and sends the request to the <em>controller</em>.
@@ -64,23 +64,14 @@ Follow the steps {HERE}[https://community.nitrous.io/docs/connect-to-github] to 
 == Controllers
 * We need 3 parts to build the app : a controller, a route and a view. In the terminal type, <tt>rails generate Pages</tt>
 
-* After <tt>rails generate</tt> finishes running, open <tt>app/controllers/pages_controller.rb<tt>. Within the <tt>class PagesController</tt>, add a method <tt>home</tt>:
+* After <tt>rails generate</tt> finishes running, open <tt>app/controllers/pages_controller.rb</tt>. Within the <tt>class PagesController</tt>, add a method <tt>home</tt>:
 
-# This class holds the letters in the original
-       # word or phrase. The is_anagram? method allows us
-       # to test if subsequent words or phrases are
-       # anagrams of the original.
-       class Anagram
+       # pages_controller.rb
+       class PagesController < ApplicationController 
 
-         # Remember the letters in the initial word
-         def initialize(text)
-           @initial_letters = letters_of(text)
-         end
-         # Test to see if a new word contains the same
-         # letters as the original
-         def is_anagram?(text)
-           @initial_letters == letters_of(text)
-         end
+          def home
+          end
+       end
 
 
 
