@@ -84,16 +84,16 @@ The <tt>rails generate controller Pages</tt> command generated a new controller 
 == Routes
 * Now that we have a controller, let's move on to the second part of the request/response cycle and create a route.
   Open <b>config/routes.rb</b> and underneath line 1, type:
-  
+
      #config/routes.rb
       root 'pages#home'
-      
+
 The root route only routes GET requests to the action and sets the default address to yoursite which is <tt>pages#home</tt>
 Now open <b>http://localhost:3000</b>.
 
 == Views
 * Now that we have a controller and a route, let's move on to the third part of the request/response cycle and create a view.
-Open <b>app/views/pages/home.html.erb</b>, and type in the following HTML. Fill in your own name.
+  Open <b>app/views/pages/home.html.erb</b>, and type in the following HTML. Fill in your own name.
 
     #app/views/pages/home.html.erb
     <div class="main">
@@ -103,11 +103,13 @@ Open <b>app/views/pages/home.html.erb</b>, and type in the following HTML. Fill 
       </div>
     </div>
     
+
 * Go to your folder <b>app/assets/stylesheets/</b> and create a new stylesheet by typing <tt>$ touch pages.scss</tt>.
   Next, open your <b>pages.scss</b> file and add the code below,
-  
+
+  Look for one of your favourite image and add in the <b>body</b> style in <tt>background-image: url('yourfavouriteimage')</tt>
     #app/views/assets/stylesheets/pages.scss</tt>
-    
+
     /* General */
     html, body {
       height: 100%;
@@ -124,7 +126,7 @@ Open <b>app/views/pages/home.html.erb</b>, and type in the following HTML. Fill 
     .container {
       margin: 0 auto;
       width: 960px;
-     }  
+     }
 
     /* Main */
     .main {
@@ -151,9 +153,24 @@ Open <b>app/views/pages/home.html.erb</b>, and type in the following HTML. Fill 
           width: 100%;
       }
     }
-    
-      
-      
+
+
+* View your app by visiting <b>http://localhost:3000</b>
+
+
+== Complete!
+
+Congratulations! You built a Rails app from scratch. What can we generalize so far?
+
+Using the request/response cycle as a guide, this has been our workflow when making a Rails app.
+
+1. Generate a new Rails app.
+2. Generate a controller and add an action.
+3. Create a route that maps a URL to the controller action.
+4. Create a view with HTML and CSS.
+5. Run the local web server and preview the app in the browser.
+
+
 
 
 
