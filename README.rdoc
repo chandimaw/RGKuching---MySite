@@ -38,7 +38,7 @@ Click on this link for to setup your nitrous account [http://railsgirls-my.githu
 
 == What happens when you visit your localhost?
 
-1. The browser makes a request for the URL [http://localhost:3000]
+1. The browser makes a request for the URL http://localhost:3000
 2. The request hits the Rails router in <tt>config/routes.rb</tt>. The router recognizes the URL and sends the request to the <em>controller</em>.
 3. The controller receives the request and processes it.
 4. The controller passes the request to the view.
@@ -72,7 +72,7 @@ Click on this link for to setup your nitrous account [http://railsgirls-my.githu
       root 'pages#home'
 
   The root route only routes GET requests to the action and sets the default address to yoursite which is <tt>pages#home</tt>
-  Now open [http://localhost:3000].
+  Now preview your app on <b>Port 3000</b>
 
 == Views
 * Now that we have a controller and a route, let's move on to the third part of the request/response cycle and create a view.
@@ -138,7 +138,7 @@ Click on this link for to setup your nitrous account [http://railsgirls-my.githu
     }
 
 
-* View your app by visiting [http://localhost:3000]
+* Preview your app on <b>Port 3000</b>
 
 
 == Complete!
